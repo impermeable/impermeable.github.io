@@ -1,0 +1,51 @@
+:root {
+  --color-primary: #2b3990;
+  --color-on-primary: #ffffff;
+  --color-background: #ffffff;
+  --color-gray: #c9c9c9;
+}
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: var(--color-primary);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: var(--color-on-primary);
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: var(--color-gray);
+  text-decoration: none;
+}
+
+.btn {
+  stroke: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.btn:hover {
+  color: var(--color-gray);
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}

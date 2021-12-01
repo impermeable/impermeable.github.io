@@ -1,0 +1,22 @@
+{
+  "name": "impermeable.github.io",
+  "version": "0.0.1",
+  "description": "Waterproof",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impermeable/impermeable.github.io.git"
+  },
+  "keywords": [
+    "Waterproof"
+  ],
+  "author": "S. McCarren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/impermeable/impermeable.github.io/issues"
+  },
+  "homepage": "https://github.com/impermeable/impermeable.github.io#readme"
+}

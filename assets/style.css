@@ -9,6 +9,10 @@
   max-width: 960px;
 }
 
+.wp-image-border {
+  border: 3px solid var(--color-primary);
+}
+
 /*
  * Custom translucent site header
  */

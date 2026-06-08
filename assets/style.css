@@ -53,3 +53,10 @@
     flex: 1;
   }
 }
+
+#impermeable-logo-button {
+  height: 1.5em;
+  width: auto;
+  vertical-align: top;
+  margin-right: 0.4em;
+}
